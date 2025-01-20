@@ -53,6 +53,7 @@ GROUP BY type
 
 ### 2. Find the most common rating for movies and TV shows
 
+```sql
 SELECT
 	type,
 	rating
@@ -69,7 +70,7 @@ FROM
 
 WHERE 
 	ranking = 1
-
+```
 
 ### 3. List all movies released in a specific year (e.g., 2020)
 
